@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 100%;
+	margin: 50px auto 0px;
+	color: black;
+  	background-color: #fff700;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	padding: 20px;
+}
+
+form, .content {
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	font-size: 2em;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+	display: inherit;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 20px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: black;
+  background-color: #fff700;
+	border: 1px solid #b2ad07;
+	box-shadow: 2px 5px 5px grey;
+	border-radius: 5px;
+	font-size: 1em;
+}
+.message {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+.success {
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+	margin-bottom : 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+td {
+  padding : 3px 5px;
+}
